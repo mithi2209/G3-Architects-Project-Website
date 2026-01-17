@@ -1,0 +1,180 @@
+/* Google Font Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Style */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title-text-color{
+    color: #131313;
+}
+.description-text-color{
+    color: #727272;
+}
+
+.btn-primary{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 25px;
+    background-color: #ff900e;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: darkgoldenrod;
+}
+
+/* Header Section Styles */
+
+    header{
+        background: #ff900e1a;
+    }
+    /* NavBar Styles */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .nav-title{
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .nav-links li{
+        list-style: none;
+    }
+    .nav-links li >a {
+        text-decoration: none;
+        color: #424242;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+     /* Banner */
+    .banner-content{
+        max-width: 860px;
+        text-align: center;
+        margin: 116px auto 50px auto;
+        
+    }
+    .banner-title{
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 30px;
+        
+    }
+    .banner-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 32px;
+    }
+
+    .banner-img{
+        padding-bottom: 50px;
+    }
+
+
+/* Responsive Styles For Small Device */
+@media screen and (max-width:576px) {
+/* Header Section Responsive For Mobile */
+    /* Navbar */
+    nav{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .nav-title{
+        font-size: 30px;
+    }
+    .nav-links{
+        margin-top: 30px;
+        gap: 25px;
+    }
+    /* Banner */
+    .banner-content{
+       margin: 80px 15px 30px 15px;
+    }
+    .banner-title{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .banner-description{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .banner-img{
+        padding-bottom: 0px;
+    }
+    .banner-img img{
+        width: 100%;
+        vertical-align: bottom;
+    }
+    .btn-primary{
+        font-size: 16px;
+        padding: 18px 20px;
+    }
+   
+}
+
+/* Responsive Styles For Tablet  */
+@media screen and (min-width:576px) and (max-width:992px) {
+/* Header Section Responsive For Tablet */ 
+    /* Navbar */
+    nav{
+        padding: 40px 30px;
+    }
+    .nav-title{
+        font-size: 35px;
+    }
+    .nav-links{
+        gap: 20px;
+    }
+    /* Banner */
+    .banner-content{
+        margin: 60px auto 30px auto;
+    }
+    .banner-title{
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 0px;
+    }
+    .banner-description{
+        max-width: 600px;
+        margin:20px auto;
+    }
+    .banner-img{
+        padding-bottom: 0;
+    }
+     .banner-img img{
+        width: 100%;
+        vertical-align: bottom;
+    }
+}
