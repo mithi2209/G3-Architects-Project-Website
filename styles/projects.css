@@ -251,16 +251,16 @@
         line-height: 23px;
     }
     /* Sponser Section Styles */
-    #sponser-section{
+    #sponsor-section{
         margin:130px auto;
     }
-    .sponser-section-title{
+    .sponsor-section-title{
         font-size: 45px;
         font-weight: 700;
         line-height: 53px;
         text-align: center;
     }
-    .sponser-section-des{
+    .sponsor-section-des{
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
@@ -268,7 +268,7 @@
         max-width: 540px;
         margin: 24px auto 0px auto;
     }
-    .sponser-company-img-container{
+    .sponsor-company-img-container{
         display: grid;
         grid-template-columns: repeat(5,1fr);
         justify-items:center ;
@@ -276,8 +276,24 @@
         margin-top: 80px;
         gap: 150px;
     }
-    .sponser-company-img-container{
+    .sponsor-company-img-container{
         filter: grayscale(100%);
+    }
+    /* Footer Styles */
+    #footer-section{
+        background: #fff4e7;
+        border-radius: 8px;
+        margin:200px auto 100px auto;
+        
+    }
+    .footer-text{
+        color: #424242;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        padding: 30px ;
+        
     }
  
 
@@ -394,26 +410,32 @@
     .facts-card{
         width: 100%;
     }
-    /* Sponser Section Styles */
-      #sponser-section{
+    /* Sponsor Section Styles */
+      #sponsor-section{
         margin:80px 25px;
     }
-    .sponser-section-title{
+    .sponsor-section-title{
         font-size: 35px;
     }
-    .sponser-section-des{
+    .sponsor-section-des{
         margin: 15px auto 0 auto;
     }
-    .sponser-company-img-container{
+    .sponsor-company-img-container{
         grid-template-columns: repeat(2,1fr);
         margin: 50px 25px 0 25px;
         gap: 40px;
     }
-    .sponser-company-img-container img{
+    .sponsor-company-img-container img{
         width: 100%;
     }
-        
-   
+     /* Footer Styles */
+    #footer-section{
+        margin: 50px 20px;
+    }
+    .footer-text{
+        font-size: 14px;
+    }
+     
 }
 
 /* Responsive Styles For Tablet  */
@@ -492,12 +514,20 @@
     .facts-card{
         width: 100%;
     }
-    /* Sponser Section Styles */
-      #sponser-section{
+    /* Sponsor Section Styles */
+      #sponsor-section{
         margin:80px 30px;
     }
-    .sponser-company-img-container{
+    .sponsor-company-img-container{
         grid-template-columns: repeat(2,1fr);
         gap: 80px;
     }
+    /* Footer Styles */
+     #footer-section{
+        margin: 50px 30px;
+    }
+    .footer-text{
+        font-size: 16px;
+    }
+      
 }
